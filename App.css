@@ -1,0 +1,48 @@
+.App {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .todo-title {
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .status-pending {
+    background-color: #f4c2c2;
+  }
+  
+  .status-completed {
+    background-color: #b8fcb8;
+  }
+  
+  .todo-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  button {
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
